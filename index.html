@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Todo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dfd883696e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <h1><span style="color: red;">Y</span><span style="color: pink;">A</span><span style="color: blue;">T</span><span style="color: green;">A</span>: Yet Another Todo App</h1>
+    </header>
+    <div id="form-inputs-container">
+      <div id="todo-thing-continer">
+        <label>Item to add</label>
+        <input id="important-thing" placeholder="3 Hours of coding"/>
+      </div>
+      <div id="todo-priority-container">
+        <label for="priority">Priority 1 - 10</label>
+        <input type="number" name="priority" id="priority-input" max="10" min="1" value="1">
+      </div>
+      <div id="button-container">
+        <button id="add-to-list" title="Click to add item"><i class="fa-solid fa-plus"></i></button>
+        <button id="order-button" title="Click to sort list"><i class="fa-solid fa-arrow-up-1-9"></i></button>
+      </div>
+    </div>
+    <div id="todo-list-container">
+      <ol></ol>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
